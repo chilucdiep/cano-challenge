@@ -1,0 +1,13 @@
+.ProductsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1.2em;
+    column-gap: 1em;
+}
+
+.functionalityBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 0;
+}
