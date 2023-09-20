@@ -5,29 +5,16 @@ body,
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
-
-  --mainColor: #ff6b6b;
-  --secondaryColor: #ff9a9a;
-  --gradient: linear-gradient(97.15deg, #ff6b6b 0%, #ff9a9a 100%);
 }
 
 h1 {
   font-size: 2.25rem;
   font-weight: 600;
-
-  @media screen and (max-width: 700px) {
-    font-size: 2.5rem;
-  }
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: 500;
-
-  @media screen and (max-width: 700px) {
-    font-size: .8rem;
-  }
 }
 
 input, button {

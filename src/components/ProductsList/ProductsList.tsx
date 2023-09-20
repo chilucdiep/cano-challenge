@@ -7,7 +7,7 @@ import styles from "./ProductsList.module.css";
 import Product from "../../types/ProductType";
 
 export function ProductsList() {
-  const [products, setProducts] = useState<Product[]>(productsData);
+  const [products] = useState<Product[]>(productsData);
   const [sortBy, setSortBy] = useState<"ascending" | "descending">("ascending");
   const [searchTerm, setSearchTerm] = useState<string>("");
 
