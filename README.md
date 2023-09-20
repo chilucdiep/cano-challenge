@@ -1,3 +1,12 @@
+# Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://127.0.0.1:5173/](http://127.0.0.1:5173/) with your browser to see the result.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
