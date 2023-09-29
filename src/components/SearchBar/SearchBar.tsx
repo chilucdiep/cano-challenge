@@ -4,6 +4,7 @@ interface SearchBarProps {
 }
 
 export function SearchBar({ searchTerm, onSearchTermChange }: SearchBarProps) {
+  console.log("Search render");
   return (
     <input
       type="text"

@@ -4,6 +4,7 @@ interface FilterButtonProps {
 }
 
 export function FilterButton({ sortBy, onSortChange }: FilterButtonProps) {
+  console.log("Filter render");
   return (
     <button onClick={onSortChange}>
       Sort by Environmental Impact {sortBy === "ascending" ? "↑" : "↓"}
